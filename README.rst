@@ -1,4 +1,7 @@
 
+.. image:: docs/source/logo.png
+   :alt: Logo
+
 .. image:: https://img.shields.io/travis/mwclient/mwclient.svg
    :target: https://travis-ci.org/mwclient/mwclient
    :alt: Build status
@@ -52,7 +55,7 @@ can be installed from GitHub:
 
     $ pip install git+git://github.com/mwclient/mwclient.git
 
-Please see the 
+Please see the
 `release notes <https://github.com/mwclient/mwclient/blob/master/RELEASE-NOTES.md>`_
 for a list of changes.
 
@@ -99,7 +102,7 @@ without their two-letter prefix. Exceptions to this rule:
 * ``categorymembers`` is implemented as ``Category.members``
 * ``deletedrevs`` is ``deletedrevisions``
 * ``usercontribs`` is ``usercontributions``
-* First parameters of ``search`` and ``usercontributions`` are ``search`` and ``user`` 
+* First parameters of ``search`` and ``usercontributions`` are ``search`` and ``user``
   respectively
 
 Properties and generators are implemented as Python generators.
@@ -120,7 +123,7 @@ User-agents
 -----------
 Bots that run on Wikimedia wikis `require an informative user-agent for all
 API requests <https://meta.wikimedia.org/wiki/User-Agent_policy>`_. To change
-the user-agent, you will need to include an appropriate parameter for 
+the user-agent, you will need to include an appropriate parameter for
 ``clients_useragent`` when you initialize your ``Site``, as shown in the
 following example:
 
@@ -135,7 +138,7 @@ Example
 
 For more information, see the
 `REFERENCE.md <https://github.com/mwclient/mwclient/blob/master/REFERENCE.md>`_ file
-or the 
+or the
 `documentation on the wiki <https://github.com/mwclient/mwclient/wiki>`_.
 
 .. code-block:: python
